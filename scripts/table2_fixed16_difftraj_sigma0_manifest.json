@@ -1,0 +1,19 @@
+{
+  "models": [
+    {
+      "model": "DiffTraj",
+      "city": "porto",
+      "predictions": "../DiffTraj/difftraj_outputs/unsmoothed_sigma0/porto/porto_difftraj_sigma0_predictions.npz"
+    },
+    {
+      "model": "DiffTraj",
+      "city": "beijing",
+      "predictions": "../DiffTraj/difftraj_outputs/unsmoothed_sigma0/beijing/beijing_difftraj_sigma0_predictions.npz"
+    },
+    {
+      "model": "DiffTraj",
+      "city": "rome",
+      "predictions": "../DiffTraj/difftraj_outputs/unsmoothed_sigma0/rome/rome_difftraj_sigma0_predictions.npz"
+    }
+  ]
+}

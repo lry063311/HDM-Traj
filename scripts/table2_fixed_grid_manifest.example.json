@@ -1,0 +1,10 @@
+{
+  "models": [
+    {
+      "model": "HDM-Traj",
+      "city": "porto",
+      "predictions": "outputs/paper_full/porto_k4_strict_od_3seed/final_test_seed2026/test_full/semantic_reranker_trajectories.npz",
+      "generated_key": "generated_trajectories"
+    }
+  ]
+}

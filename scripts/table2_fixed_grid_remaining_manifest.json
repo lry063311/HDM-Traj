@@ -1,0 +1,100 @@
+{
+  "models": [
+    {
+      "model": "DiffTraj",
+      "city": "porto",
+      "predictions": "../DiffTraj/difftraj_outputs/unsmoothed_sigma0/porto/porto_difftraj_sigma0_predictions.npz"
+    },
+    {
+      "model": "DiffTraj",
+      "city": "beijing",
+      "predictions": "../DiffTraj/difftraj_outputs/unsmoothed_sigma0/beijing/beijing_difftraj_sigma0_predictions.npz"
+    },
+    {
+      "model": "DiffTraj",
+      "city": "rome",
+      "predictions": "../DiffTraj/difftraj_outputs/unsmoothed_sigma0/rome/rome_difftraj_sigma0_predictions.npz"
+    },
+    {
+      "model": "VAE",
+      "city": "porto",
+      "predictions": "outputs/table2_recovery_fixed_grid/20260911_082047/VAE/porto/eval/porto_vae_predictions.npz"
+    },
+    {
+      "model": "VAE",
+      "city": "beijing",
+      "predictions": "outputs/table2_recovery_fixed_grid/20260911_082047/VAE/beijing/eval/beijing_vae_predictions.npz"
+    },
+    {
+      "model": "VAE",
+      "city": "rome",
+      "predictions": "outputs/table2_recovery_fixed_grid/20260911_082047/VAE/rome/eval/rome_vae_predictions.npz"
+    },
+    {
+      "model": "TrajGAN",
+      "city": "porto",
+      "predictions": "outputs/table2_recovery_fixed_grid/20260911_082047/TrajGAN/porto/eval/porto_trajgan_predictions.npz"
+    },
+    {
+      "model": "TrajGAN",
+      "city": "beijing",
+      "predictions": "outputs/table2_recovery_fixed_grid/20260911_082047/TrajGAN/beijing/eval/beijing_trajgan_predictions.npz"
+    },
+    {
+      "model": "TrajGAN",
+      "city": "rome",
+      "predictions": "outputs/table2_recovery_fixed_grid/20260911_082047/TrajGAN/rome/eval/rome_trajgan_predictions.npz"
+    },
+    {
+      "model": "ControlTraj",
+      "city": "porto",
+      "predictions": "../ControlTraj/controltraj_outputs/ControlTraj_porto/controltraj_porto_unet150_langdirect_eval/controltraj_porto_unet150_predictions.npz",
+      "generated_key": "generated",
+      "sample_id_manifest": "data/proto/porto_od_chord_compact_v1/instruction_data/porto_split_manifest.json"
+    },
+    {
+      "model": "ControlTraj",
+      "city": "beijing",
+      "predictions": "../ControlTraj/controltraj_outputs/beijing_table2_rerun/eval/beijing_controltraj_unet150_predictions.npz",
+      "generated_key": "generated",
+      "sample_id_manifest": "outputs/road_full/beijing/instruction_data/beijing_split_manifest.json"
+    },
+    {
+      "model": "ControlTraj",
+      "city": "rome",
+      "predictions": "../ControlTraj/controltraj_outputs/rome_table2/eval/rome_controltraj_unet70_predictions.npz",
+      "generated_key": "generated",
+      "sample_id_manifest": "outputs/road_full/rome/instruction_data/rome_split_manifest.json"
+    },
+    {
+      "model": "HDM-Traj",
+      "city": "porto",
+      "predictions": "outputs/paper_full/porto_fixed16_k_sweep_seed2026/final_test_k4/test_full/semantic_reranker_trajectories.npz"
+    },
+    {
+      "model": "HDM-Traj",
+      "city": "beijing",
+      "predictions": "outputs/paper_full/beijing_fixed16_k4_seed2026/final_test_seed2026/test_full/semantic_reranker_trajectories.npz"
+    },
+    {
+      "model": "HDM-Traj",
+      "city": "rome",
+      "predictions": "outputs/paper_full/rome_fixed16_k4_seed2026/final_test_seed2026/test_full/semantic_reranker_trajectories.npz"
+    },
+    {
+      "model": "OD-chord straight",
+      "city": "porto",
+      "predictions": "outputs/paper_full/table2_fixed_grid_32x32/od_chord_inputs/porto_od_chord_predictions.npz"
+    },
+    {
+      "model": "OD-chord straight",
+      "city": "beijing",
+      "predictions": "outputs/paper_full/table2_fixed_grid_32x32/od_chord_inputs/beijing_od_chord_predictions.npz"
+    },
+    {
+      "model": "OD-chord straight",
+      "city": "rome",
+      "predictions": "outputs/paper_full/table2_fixed_grid_32x32/od_chord_inputs/rome_od_chord_predictions.npz"
+    }
+  ]
+}
